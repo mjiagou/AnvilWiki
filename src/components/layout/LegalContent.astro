@@ -24,27 +24,29 @@ const year = new Date().getFullYear();
       </p>
       <h2>What We Cover</h2>
       <ul>
-        <li>Boss strategies and attack patterns</li>
-        <li>Item locations, stats, and crafting recipes</li>
-        <li>Active redeemable codes (updated daily)</li>
-        <li>Tier lists and build recommendations</li>
-        <li>Progression guides for new and returning players</li>
+        <li>Active redeemable promo codes (tested and verified weekly)</li>
+        <li>Fishing mechanics, spawn time windows, and weather conditions</li>
+        <li>Cooking recipe profit margins, stamina recovery, and ingredient lists</li>
+        <li>Farming guides, crop timers, and workshop tool crafting recipes</li>
+        <li>Daily reset checklists (6:00 AM UTC) and starter progression routes</li>
       </ul>
       <h2>Community-Driven</h2>
       <p>
-        This wiki is maintained by volunteers. If you spot an error or have content to contribute,
-        join our Discord and let us know. All content is freely accessible — no account required.
+        This wiki is maintained by dedicated players and community contributors. If you spot an
+        error, have a newly discovered recipe, or want to contribute data, reach out through our
+        community channels. All content is freely accessible — no login required.
       </p>
       <h2>Contact</h2>
       <p>
-        Reach us via our{' '}
-        <a href={site.social.discord} target="_blank" rel="noopener noreferrer">
-          Discord server
-        </a>{' '}
-        or{' '}
+        Reach our editorial team or the game's official community through{' '}
         <a href={site.social.official} target="_blank" rel="noopener noreferrer">
           the game's official channels
         </a>
+        {site.contactEmail && (
+          <>
+            {' '}or directly via email at <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
+          </>
+        )}
         .
       </p>
     </>

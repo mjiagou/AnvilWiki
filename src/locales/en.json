@@ -123,16 +123,16 @@
   },
   "overview": {
     "codes": {
-      "overviewTitle": "All Codes",
-      "overviewDescription": "Codes content for Heartopia. Replace this overview text in the locale JSON — it feeds the category page title and description."
+      "overviewTitle": "All Heartopia Codes",
+      "overviewDescription": "Browse all active Heartopia promo codes and weekly gift benefits. Tap to copy verified working codes for free Wishing Stars, fish attractors, and coins."
     },
     "guides": {
-      "overviewTitle": "All Guides",
-      "overviewDescription": "Guides content for Heartopia. Replace this overview text in the locale JSON — it feeds the category page title and description."
+      "overviewTitle": "All Heartopia Guides",
+      "overviewDescription": "Comprehensive Heartopia guides, walkthroughs, and strategies. Master the 7-day starter route, daily resets, fishing spawn schedules, and cooking recipes."
     },
     "items": {
-      "overviewTitle": "All Items",
-      "overviewDescription": "Items content for Heartopia. Replace this overview text in the locale JSON — it feeds the category page title and description."
+      "overviewTitle": "All Heartopia Items & Materials",
+      "overviewDescription": "Complete Heartopia database of crafting materials, crops, and collectible fish. Find spawn requirements, farming tips, and workshop recipe uses."
     }
   },
   "home": {
@@ -148,16 +148,20 @@
       "title": "Most read",
       "quickLinks": [
         {
-          "label": "Codes",
-          "href": "/codes"
+          "label": "All Codes",
+          "href": "/codes/all-codes"
         },
         {
-          "label": "Guides",
-          "href": "/guides"
+          "label": "Fishing Guide",
+          "href": "/guides/fishing-guide"
         },
         {
-          "label": "Items",
-          "href": "/items"
+          "label": "Cooking Recipes",
+          "href": "/guides/cooking-recipes"
+        },
+        {
+          "label": "Beginner Route",
+          "href": "/guides/beginner-guide"
         }
       ]
     },
@@ -223,9 +227,26 @@
       ]
     },
     "faq": {
-      "title": "FAQ",
-      "description": "Common questions",
-      "items": []
+      "title": "Frequently Asked Questions",
+      "description": "Essential gameplay questions answered for Heartopia players",
+      "items": [
+        {
+          "question": "What is Heartopia and what platforms is it available on?",
+          "answer": "Heartopia is a cozy multiplayer life simulation game developed by XD Games. Players can build and decorate cottages, tend gardens, catch over 90+ species of fish, cook recipes, and socialize with neighbors across iOS, Android, and PC."
+        },
+        {
+          "question": "How often do developers release new Heartopia codes?",
+          "answer": "XD Games releases new official benefit promo codes every Monday, along with milestone celebration codes during major version livestream previews and seasonal holiday events."
+        },
+        {
+          "question": "What time does the Heartopia server reset each day?",
+          "answer": "Heartopia servers reset daily at 6:00 AM UTC. Merchant shop inventories, daily commissions, resource gathering nodes, and resident friendship quests refresh at this specific time."
+        },
+        {
+          "question": "What is the fastest way to earn gold coins early in Heartopia?",
+          "answer": "The most profitable method is unlocking the Cooking Hobby at Dream Guide Level 5 with Chef Massimo. Cooking raw ingredients like truffles into Black Truffle Pies or berries into Jams multiplies crop resale value by 200% to 350% when sold to Albert Jr."
+        }
+      ]
     }
   },
   "footer": {

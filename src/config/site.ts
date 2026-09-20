@@ -63,28 +63,27 @@ export interface SiteConfig {
 
 export const site: SiteConfig = {
   name: 'Heartopia Wiki',
-  shortName: 'Heartopia wiki',
-  description: 'Complete Heartopia wiki with guides, codes, tier lists, and tips. Every page carries a last-verified date.',
+  shortName: 'Heartopia Wiki',
+  description: 'Your community database for Heartopia: weekly verified promo codes, fishing spawn schedules, profitable cooking recipes, and starter guides.',
   domain: 'heartopia-wiki.ygjc.cc',
   tagline: 'Your home for everything Heartopia',
-  legalNotice: 'Heartopia Wiki is a fan-made community site. Not affiliated with or endorsed by the game developer.',
-  // Set a real address if you run no social channels — the contact page
-  // renders it as a mailto link.
+  legalNotice: 'Heartopia Wiki is a fan-made community site. Not affiliated with or endorsed by XD Games.',
   contactEmail: '',
   social: {
     official: 'https://heartopia.xd.com',
   },
+  sameAs: [
+    'https://heartopia.xd.com',
+  ],
   game: {
     name: 'Heartopia',
     platform: 'iOS, Android, PC',
     developer: 'XD Games',
-    genre: 'Life Sim',
-    releaseDate: '',
+    genre: 'Cozy Multiplayer Life Sim',
+    releaseDate: '2024',
   },
-  // og:image dims of the SHIPPED hero.webp — if you replace public/images/hero.webp,
-  // update these in src/config/site.ts to match (wrong dims mis-crop share cards).
   ogImageWidth: 1200,
-  ogImageHeight: 630,
+  ogImageHeight: 675,
 };
 
 /** Absolute site URL (no trailing slash). Falls back to the Astro `site` config. */
