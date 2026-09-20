@@ -126,6 +126,7 @@ const xDefaultHref = defaultAlt
 const gaId = import.meta.env.PUBLIC_GA_ID as string | undefined;
 const cfBeaconToken = import.meta.env.PUBLIC_CF_BEACON_TOKEN as string | undefined;
 const gscVerification = import.meta.env.PUBLIC_GSC_VERIFICATION as string | undefined;
+const bingVerification = import.meta.env.PUBLIC_BING_VERIFICATION as string | undefined;
 const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefined;
 
 // Consent banner labels: wiki locales derive them from the locale JSON
@@ -235,8 +236,9 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
     {/* Theme color (browser chrome) is injected by the runtime script below —
         meta content is a plain string where var() never resolves. */}
 
-    {/* Google Search Console verification (optional) */}
+    {/* Search engine verification (optional) */}
     {gscVerification && <meta name="google-site-verification" content={gscVerification} />}
+    {bingVerification && <meta name="msvalidate.01" content={bingVerification} />}
 
     {/*
       Analytics / AdSense are injected DYNAMICALLY (consent-gated).
