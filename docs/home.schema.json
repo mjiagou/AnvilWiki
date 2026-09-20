@@ -16,7 +16,11 @@
       "properties": {
         "meta": {
           "type": "object",
-          "properties": { "watermark": { "type": "string" } }
+          "properties": {
+            "title": { "type": "string" },
+            "description": { "type": "string" },
+            "watermark": { "type": "string" }
+          }
         },
         "hero": {
           "type": "object",
@@ -25,8 +29,8 @@
             "badge": { "type": "string" },
             "title": { "type": "string" },
             "description": { "type": "string", "minLength": 20 },
-            "ctaPrimary": { "$ref": "#/$defs/cta" },
-            "ctaSecondary": { "$ref": "#/$defs/cta" },
+            "ctaPrimary": { "type": "string" },
+            "ctaSecondary": { "type": "string" },
             "videoId": { "type": "string", "description": "YouTube video ID — hero video is lazy-loaded, leave empty for none." }
           }
         },
@@ -49,6 +53,7 @@
                 "type": "object",
                 "required": ["title", "description", "icon", "href"],
                 "properties": {
+                  "number": { "type": "string" },
                   "title": { "type": "string" },
                   "description": { "type": "string" },
                   "icon": { "type": "string", "examples": ["lucide:gift", "lucide:swords", "lucide:book-open"] },
@@ -130,8 +135,8 @@
           "properties": {
             "title": { "type": "string" },
             "description": { "type": "string" },
-            "primary": { "$ref": "#/$defs/cta" },
-            "secondary": { "$ref": "#/$defs/cta" }
+            "primary": { "type": "string" },
+            "secondary": { "type": "string" }
           }
         }
       }
