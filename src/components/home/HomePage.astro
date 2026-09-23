@@ -74,6 +74,7 @@ function trendingHref(link: QuickLink): string | null {
 function trendingLabel(link: QuickLink): string {
   return typeof link === 'string' ? link : link.label;
 }
+const heroBannerSrc = '/images/hero' + '.webp';
 ---
 
 <LocaleLayout
@@ -135,7 +136,7 @@ function trendingLabel(link: QuickLink): string {
         <div class="lg:col-span-5">
           <div class="relative mx-auto max-w-lg overflow-hidden rounded-2xl border border-border/80 bg-card/60 p-2 shadow-xl backdrop-blur transition hover:shadow-2xl">
             <img
-              src="/images/hero.webp"
+              src={heroBannerSrc}
               alt={`${site.game.name} Cozy Town Illustration`}
               width="600"
               height="338"
