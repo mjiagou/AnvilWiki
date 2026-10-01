@@ -3,7 +3,7 @@
   "site": {
     "name": "Heartopia Wiki",
     "shortName": "Heartopia wiki",
-    "description": "Complete Heartopia wiki with guides, codes, tier lists, and tips. Every page carries a last-verified date.",
+    "description": "Complete Heartopia wiki with guides, codes, item lists, and tips. Every page carries a last-verified date.",
     "tagline": "Your home for everything Heartopia",
     "legalNotice": "Heartopia Wiki is a fan-made community site. Not affiliated with or endorsed by the game developer."
   },
@@ -137,8 +137,8 @@
   },
   "home": {
     "meta": {
-      "title": "Heartopia Wiki — Codes, Guides & Tier Lists",
-      "description": "Complete Heartopia wiki with guides, codes, tier lists, and tips. Every page carries a last-verified date."
+      "title": "Heartopia Wiki — Codes, Guides & Item Lists",
+      "description": "Complete Heartopia wiki with guides, codes, item lists, and tips. Every page carries a last-verified date."
     },
     "updates": {
       "title": "Recent updates"
@@ -186,7 +186,7 @@
     "hero": {
       "badge": "Fan-made wiki",
       "title": "Heartopia Codes",
-      "description": "All working Heartopia codes with expiry dates, plus guides and tier lists.",
+      "description": "All working Heartopia codes with expiry dates, plus guides and item lists.",
       "ctaPrimary": "Play now",
       "ctaSecondary": "Browse guides",
       "videoId": ""

@@ -68,7 +68,7 @@ export const site: SiteConfig = {
   domain: 'heartopia-wiki.ygjc.cc',
   tagline: 'Your home for everything Heartopia',
   legalNotice: 'Heartopia Wiki is a fan-made community site. Not affiliated with or endorsed by XD Games.',
-  contactEmail: '',
+  contactEmail: 'contact@ygjc.cc',
   social: {
     official: 'https://heartopia.xd.com',
   },

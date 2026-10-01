@@ -254,6 +254,21 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
       </>
     )}
 
+    {/* Google AdSense */}
+    {adsenseClient && (
+      <>
+        <script
+          is:inline
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
+          crossorigin="anonymous"
+        />
+        <script is:inline>
+          window.__awAdSenseLoaded = true;
+        </script>
+      </>
+    )}
+
     {/*
       Analytics / AdSense are injected DYNAMICALLY (consent-gated).
       BaseLayout only defines the loader; CookieConsent.astro calls it after
@@ -278,7 +293,8 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
             gtag('js', new Date());
             gtag('config', gaId);
           }
-          if (adsenseClient) {
+          if (adsenseClient && !window.__awAdSenseLoaded) {
+            window.__awAdSenseLoaded = true;
             const s = document.createElement('script');
             s.async = true;
             s.crossOrigin = 'anonymous';
