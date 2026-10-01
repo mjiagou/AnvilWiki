@@ -152,20 +152,28 @@
           "href": "/codes/all-codes"
         },
         {
-          "label": "Gold Making",
+          "label": "Gold Making Guide",
           "href": "/guides/gold-making-guide"
         },
         {
-          "label": "Fishing Guide",
-          "href": "/guides/fishing-guide"
+          "label": "DG Leveling Roadmap",
+          "href": "/guides/dream-guide-leveling"
         },
         {
-          "label": "Cooking Recipes",
-          "href": "/guides/cooking-recipes"
+          "label": "All Fish Species",
+          "href": "/items/fish-species-list"
         },
         {
-          "label": "Beginner Route",
-          "href": "/guides/beginner-guide"
+          "label": "All Insects & Bugs",
+          "href": "/items/insect-species-list"
+        },
+        {
+          "label": "Crops & Seeds List",
+          "href": "/items/crop-seeds-list"
+        },
+        {
+          "label": "Mining & Gemstones",
+          "href": "/items/mining-ores-gems-list"
         }
       ]
     },
@@ -212,19 +220,90 @@
     },
     "explore": {
       "title": "Explore",
-      "description": "The essentials",
+      "description": "Featured game topics",
       "modules": [
         {
           "order": 1,
-          "name": "Active codes",
-          "description": "Redeem before they expire",
-          "href": "/codes",
+          "name": "Active Codes & Free Rewards",
+          "description": "Weekly promo benefits & Wishing Stars",
+          "href": "/codes/all-codes",
           "displayType": "badge-list",
           "highlights": [
             {
               "label": "HEARTOPIA2026",
               "detail": "100 Wishing Stars, 5 Fertilizer",
               "badge": "ACTIVE"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Moneymaking Tier List",
+          "description": "Hourly gold efficiency by profession",
+          "href": "/guides/gold-making-guide",
+          "displayType": "ranked-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Multi-Stove Cooking — 45k-70k Gold/hr"
+            },
+            {
+              "label": "A",
+              "detail": "Stormy Night Fishing — 30k-50k Gold/hr"
+            },
+            {
+              "label": "B",
+              "detail": "High-Yield Berry Farming — 20k-35k Gold/hr"
+            },
+            {
+              "label": "C",
+              "detail": "Quarry Mining Loops — 8k-15k Gold/hr"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Progression & DG Rank Roadmap",
+          "description": "Fast leveling & key system unlock gates",
+          "href": "/guides/dream-guide-leveling",
+          "displayType": "steps",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "DG Lv1-4: Starter Plot & Basic Tools"
+            },
+            {
+              "label": "2",
+              "detail": "DG Lv5: Cooking Stove & Bug Catching Net"
+            },
+            {
+              "label": "3",
+              "detail": "DG Lv8-12: Second Floor Villa & Ocean Charters"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Island Wildlife & Compendium",
+          "description": "Complete species, schedules & prices",
+          "href": "/items",
+          "displayType": "labeled-cards",
+          "highlights": [
+            {
+              "label": "Fish Species (90+)",
+              "detail": "Shadow sizes, weather & spawn times"
+            },
+            {
+              "label": "Insects & Beetles (40+)",
+              "detail": "Tree trunks, stealth stalking & prices"
+            },
+            {
+              "label": "Crops & Seeds",
+              "detail": "Regrowth cycles & gold per tile hour"
+            },
+            {
+              "label": "Mining & Minerals",
+              "detail": "Ore veins, respawn timers & gem values"
             }
           ]
         }

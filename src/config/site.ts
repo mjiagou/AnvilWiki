@@ -84,6 +84,7 @@ export const site: SiteConfig = {
   },
   ogImageWidth: 1200,
   ogImageHeight: 675,
+  defaultAuthor: 'Heartopia Wiki Editors',
 };
 
 /** Absolute site URL (no trailing slash). Falls back to the Astro `site` config. */
