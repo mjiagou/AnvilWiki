@@ -178,6 +178,10 @@
         {
           "label": "Multiplayer Co-Op",
           "href": "/guides/multiplayer-coop-guide"
+        },
+        {
+          "label": "Weather & Rainbows",
+          "href": "/guides/weather-system-forecast"
         }
       ]
     },
