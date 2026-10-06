@@ -182,6 +182,10 @@
         {
           "label": "Weather & Rainbows",
           "href": "/guides/weather-system-forecast"
+        },
+        {
+          "label": "Artisan Goods Guide",
+          "href": "/guides/artisan-processing-profit"
         }
       ]
     },
@@ -237,6 +241,11 @@
           "href": "/codes/all-codes",
           "displayType": "badge-list",
           "highlights": [
+            {
+              "label": "OCTOBERWEEK2",
+              "detail": "60 Wishing Stars, 3 Fertilizer, 1 Lure",
+              "badge": "NEW"
+            },
             {
               "label": "HEARTOPIA2026",
               "detail": "100 Wishing Stars, 5 Fertilizer",
